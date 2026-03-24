@@ -1,0 +1,62 @@
+{
+  "build-options": {
+    "append-path": "/usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/node22/bin"
+  },
+  "command": "clustercut",
+  "finish-args": [
+    "--share=network",
+    "--share=ipc",
+    "--socket=fallback-x11",
+    "--device=dri",
+    "--talk-name=org.kde.StatusNotifierWatcher",
+    "--talk-name=org.gnome.Shell",
+    "--filesystem=home",
+    "--filesystem=xdg-run/tray-icon:create"
+  ],
+  "id": "app.clustercut.clustercut",
+  "modules": [
+    "shared-modules/libappindicator/libappindicator-gtk3-12.10.json",
+    {
+      "build-commands": [
+        "npm ci --offline",
+        "npm run tauri build -- --no-bundle",
+        "install -D src-tauri/target/release/clustercut /app/bin/clustercut",
+        "install -D src-tauri/flatpak/app.clustercut.clustercut.desktop /app/share/applications/app.clustercut.clustercut.desktop",
+        "install -D src-tauri/flatpak/app.clustercut.clustercut.svg /app/share/icons/hicolor/scalable/apps/app.clustercut.clustercut.svg",
+        "install -D src-tauri/flatpak/app.clustercut.clustercut.metainfo.xml /app/share/metainfo/app.clustercut.clustercut.metainfo.xml",
+        "install -D \"assets/Tray Icons/svg/clustercut-tray-symbolic.svg\" /app/share/icons/hicolor/scalable/status/app.clustercut.clustercut-tray-symbolic.svg",
+        "install -Dm0644 LICENSE -t /app/share/licenses/app.clustercut.clustercut/clustercut"
+      ],
+      "build-options": {
+        "env": {
+          "CARGO_HOME": "/run/build/clustercut/cargo",
+          "XDG_CACHE_HOME": "/run/build/clustercut/flatpak-node/cache",
+          "npm_config_cache": "/run/build/clustercut/flatpak-node/npm-cache",
+          "npm_config_offline": "true"
+        }
+      },
+      "buildsystem": "simple",
+      "name": "clustercut",
+      "sources": [
+        {
+          "tag": "v0.1.7",
+          "type": "git",
+          "url": "https://github.com/keithvassallomt/ClusterCut.git"
+        },
+        "cargo-sources.json",
+        "node-sources.json",
+        {
+          "path": "app.clustercut.clustercut.metainfo.xml",
+          "type": "file"
+        }
+      ]
+    }
+  ],
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "49",
+  "sdk": "org.gnome.Sdk",
+  "sdk-extensions": [
+    "org.freedesktop.Sdk.Extension.rust-stable",
+    "org.freedesktop.Sdk.Extension.node22"
+  ]
+}
