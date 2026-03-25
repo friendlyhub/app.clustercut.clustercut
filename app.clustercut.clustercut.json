@@ -5,9 +5,7 @@
   "command": "clustercut",
   "finish-args": [
     "--share=network",
-    "--share=ipc",
     "--socket=wayland",
-    "--socket=x11",
     "--device=dri",
     "--talk-name=org.kde.StatusNotifierWatcher",
     "--talk-name=org.gnome.Shell",
@@ -41,7 +39,7 @@
       "name": "clustercut",
       "sources": [
         {
-          "tag": "v0.1.8",
+          "tag": "v0.2.0",
           "type": "git",
           "url": "https://github.com/keithvassallomt/ClusterCut.git"
         },
@@ -55,7 +53,7 @@
     }
   ],
   "runtime": "org.gnome.Platform",
-  "runtime-version": "49",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "sdk-extensions": [
     "org.freedesktop.Sdk.Extension.rust-stable",
