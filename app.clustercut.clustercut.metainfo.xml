@@ -64,6 +64,14 @@
   </branding>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="0.2.1" date="2026-04-05">
+      <description>
+        <ul>
+          <li>Implemented more reliable network state monitoring to ensure no false notifications for devices joining/leaving the cluster</li>
+          <li>Removed duplicate firewall entry creation on Windows on every app startup</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.2.0" date="2026-03-25">
       <description>
         <p>Clipboard sync now works natively on Wayland. No more X11 workarounds.</p>
