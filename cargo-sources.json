@@ -307,6 +307,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/async-compression/async-compression-0.4.42.crate",
+        "sha256": "e79b3f8a79cccc2898f31920fc69f304859b3bd567490f75ebf51ae1c792a9ac",
+        "dest": "cargo/vendor/async-compression-0.4.42"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"e79b3f8a79cccc2898f31920fc69f304859b3bd567490f75ebf51ae1c792a9ac\", \"files\": {}}",
+        "dest": "cargo/vendor/async-compression-0.4.42",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/async-executor/async-executor-1.13.3.crate",
         "sha256": "497c00e0fd83a72a79a39fcbd8e3e2f055d6f6c7e025f3b3d91f4f8e76527fb8",
         "dest": "cargo/vendor/async-executor-1.13.3"
@@ -1173,6 +1186,32 @@
         "type": "inline",
         "contents": "{\"package\": \"ba5a308b75df32fe02788e748662718f03fde005016435c444eea572398219fd\", \"files\": {}}",
         "dest": "cargo/vendor/combine-4.6.7",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/compression-codecs/compression-codecs-0.4.38.crate",
+        "sha256": "ce2548391e9c1929c21bf6aa2680af86fe4c1b33e6cea9ac1cfeec0bd11218cf",
+        "dest": "cargo/vendor/compression-codecs-0.4.38"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"ce2548391e9c1929c21bf6aa2680af86fe4c1b33e6cea9ac1cfeec0bd11218cf\", \"files\": {}}",
+        "dest": "cargo/vendor/compression-codecs-0.4.38",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/compression-core/compression-core-0.4.32.crate",
+        "sha256": "cc14f565cf027a105f7a44ccf9e5b424348421a1d8952a8fc9d499d313107789",
+        "dest": "cargo/vendor/compression-core-0.4.32"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"cc14f565cf027a105f7a44ccf9e5b424348421a1d8952a8fc9d499d313107789\", \"files\": {}}",
+        "dest": "cargo/vendor/compression-core-0.4.32",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -9498,6 +9537,45 @@
         "type": "inline",
         "contents": "{\"package\": \"3ff05f8caa9038894637571ae6b9e29466c1f4f829d26c9b28f869a29cbe3445\", \"files\": {}}",
         "dest": "cargo/vendor/zmij-1.0.19",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/zstd/zstd-0.13.3.crate",
+        "sha256": "e91ee311a569c327171651566e07972200e76fcfe2242a4fa446149a3881c08a",
+        "dest": "cargo/vendor/zstd-0.13.3"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"e91ee311a569c327171651566e07972200e76fcfe2242a4fa446149a3881c08a\", \"files\": {}}",
+        "dest": "cargo/vendor/zstd-0.13.3",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/zstd-safe/zstd-safe-7.2.4.crate",
+        "sha256": "8f49c4d5f0abb602a93fb8736af2a4f4dd9512e36f7f570d66e65ff867ed3b9d",
+        "dest": "cargo/vendor/zstd-safe-7.2.4"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"8f49c4d5f0abb602a93fb8736af2a4f4dd9512e36f7f570d66e65ff867ed3b9d\", \"files\": {}}",
+        "dest": "cargo/vendor/zstd-safe-7.2.4",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/zstd-sys/zstd-sys-2.0.16+zstd.1.5.7.crate",
+        "sha256": "91e19ebc2adc8f83e43039e79776e3fda8ca919132d68a1fed6a5faca2683748",
+        "dest": "cargo/vendor/zstd-sys-2.0.16+zstd.1.5.7"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"91e19ebc2adc8f83e43039e79776e3fda8ca919132d68a1fed6a5faca2683748\", \"files\": {}}",
+        "dest": "cargo/vendor/zstd-sys-2.0.16+zstd.1.5.7",
         "dest-filename": ".cargo-checksum.json"
     },
     {
