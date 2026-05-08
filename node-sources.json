@@ -363,6 +363,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.npmjs.org/@fontsource/inter/-/inter-5.2.8.tgz",
+        "sha512": "3faaf95a72682a235557ecef5b6c4cd7780d74584012943d750247b779da2ef7e0f8b905da576048b885e13e3595fd5240233d42692a3d39f84c7e7af0845a82",
+        "dest-filename": "f95a72682a235557ecef5b6c4cd7780d74584012943d750247b779da2ef7e0f8b905da576048b885e13e3595fd5240233d42692a3d39f84c7e7af0845a82",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/3f/aa"
+    },
+    {
+        "type": "file",
         "url": "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz",
         "sha512": "da492dffb9e227a32010fc45d1b61d43a7ad65a03e7d0bc370b29c921cb5c8840ecdaa0a8c10634a3eb7fda2d58d8137aa146de5dbccfae5327c283a50a0816c",
         "dest-filename": "2dffb9e227a32010fc45d1b61d43a7ad65a03e7d0bc370b29c921cb5c8840ecdaa0a8c10634a3eb7fda2d58d8137aa146de5dbccfae5327c283a50a0816c",
@@ -1791,6 +1798,12 @@
         "contents": "446b35b3c1cca675ef33b5a9b83570761fc83646\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.60.2.tgz\", \"integrity\": \"sha512-OqZTwDRDchGRHHm/hwLOL7uVPB9aUvI0am/eQuWMNyFHf5PSEQmyEeYYheA0EPPKUO/l0uigCp+iaTjoLjVoHg==\", \"time\": 0, \"size\": 841017, \"metadata\": {\"url\": \"https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.60.2.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "df78612da586ec1a8fc8c036ca223bba130c4f6692aa052f21b3ecaf765f",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/13/17"
+    },
+    {
+        "type": "inline",
+        "contents": "481d5c0c37e4dd6ae18bdfb887e853f6c961e03e\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/@fontsource/inter/-/inter-5.2.8.tgz\", \"integrity\": \"sha512-P6r5WnJoKiNVV+zvW2xM13gNdFhAEpQ9dQJHt3naLvfg+LkF2ldgSLiF4T41lf1SQCM9QmkqPTn4TH568IRagg==\", \"time\": 0, \"size\": 4051024, \"metadata\": {\"url\": \"https://registry.npmjs.org/@fontsource/inter/-/inter-5.2.8.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "73bb785702d8cc382649ace15cc747836d9eb6d5e5a4da2331668e69de11",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/40/30"
     },
     {
         "type": "inline",
