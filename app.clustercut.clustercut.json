@@ -40,7 +40,7 @@
       "name": "clustercut",
       "sources": [
         {
-          "tag": "v0.3.0",
+          "tag": "v0.3.1",
           "type": "git",
           "url": "https://github.com/keithvassallomt/ClusterCut.git"
         },
