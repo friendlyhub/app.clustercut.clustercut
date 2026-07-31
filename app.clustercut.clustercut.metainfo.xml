@@ -7,6 +7,9 @@
   <summary>Cross-platform Clipboard Sync</summary>
   <description>
     <p>
+      <strong>Please only use the Flatpak version if you're using GNOME. For all other desktops, please install a native release.</strong>
+    </p>
+    <p>
       ClusterCut is a seamless clipboard synchronization tool that works across Linux, macOS and Windows.
       It allows you to copy text on one device and paste it on another instantly, keeping your workflow uninterrupted.
     </p>
@@ -64,6 +67,18 @@
   </branding>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="0.4.3" date="2026-07-31">
+      <description>
+        <p>
+          Maintenance release.
+        </p>
+        <ul>
+          <li>Users of the Flatpak version on non-GNOME desktops are advised to install the native version.</li>
+          <li>The ClusterCut window is now resizable for better compatibility with tiling window managers.</li>
+          <li>ClusterCut is now also available on AUR.</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.4.2" date="2026-07-10">
       <description>
         <p>No more notification pile-ups when your network changes.</p>
