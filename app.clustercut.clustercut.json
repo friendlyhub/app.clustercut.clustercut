@@ -42,8 +42,8 @@
       "name": "clustercut",
       "sources": [
         {
-          "commit": "bbdb4a9a5e758dea0b49406ed4284176f5fb1632",
-          "tag": "v0.5.0",
+          "commit": "6f50686b9ae1700396939a3b27a436a5c5aecbcb",
+          "tag": "v0.6.0",
           "type": "git",
           "url": "https://github.com/keithvassallomt/ClusterCut.git"
         },
